@@ -19,7 +19,7 @@ def valid_roman_numeral(string):
     else:
         return False
 
-
+#Separate combinations
 def slicer(string):
     combos = []
     st = string.upper()

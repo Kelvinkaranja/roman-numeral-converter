@@ -10,7 +10,7 @@ def string():
     string = input('ENTER A ROMAN NUMERAL: ')
     return string.upper()
 
-
+#Checker for validity of string
 def valid_roman_numeral(string):
     valid = (
         re.search(r"^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$", string))
